@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 namespace App\Http\Middleware;
 
 use Closure;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -17,27 +18,11 @@ class roleAccess
      * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
      * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
      */
-    public function handle(Request $request, Closure $next)
+    public function handle(Request $request, Closure $next, $valid_role)
     {
-        //check the current directory and redirect users if they have not role acces
-        //if below does not work, set role as parameters for each middleware call
-        $admin_key = "admin";
-        $sub_key = "subscriber";
-
-        if(Auth::user() !== null){
-           if(strpos($request->url(), $sub_key) !== false){
-              if(Auth::user()->role !== "subscriber"):
-                return redirect(RouteServiceProvider::ROOT);
-              endif;
-           }elseif(strpos($request->url(), $admin_key) !== false){
-              if(Auth::user()->role !== "admin"):
-                return redirect(RouteServiceProvider::ROOT);
-              endif;
-           }
+        if(Auth::user()->role !== $valid_role){
+         return redirect(RouteServiceProvider::ROOT);
         }
-
         return $next($request);
-        //set role access conditions for user based on current directory
-
     }
 }

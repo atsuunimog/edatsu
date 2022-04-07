@@ -1,61 +1,21 @@
-[HIGH QULITY SOFTWARE ARCHITECTURE DESIGNED FOR GLOBAL REACH FROM 
-DAY 1]
-Edatsu partnership programme[open for affiliates and devs]
-	->Toptal 
-	->Turing 
-	->Van Hack
-
-Open for affiliates
-	->Percentage cut per dev fees
-
-->Forum[Ask]
-
-->Dev Blog
-
-Edatsu Affiliation with recruitment firms or companies hiring
-
-Jobs positing or listing (Global);
-
-Blog post by commuity (Help developers increase their reach);
-
-Edatsu DevCom (Developer Community);
-
-Marketplace
-	->Sell digital assests (photo, arts, grapics, templates, apps, SAAS tools, plugins, packages)+ exposure to crypto
-
-Edcademy 
-	Blog 
-	vlog
-Categories
-	   - FrontEnd 
-       - fintech 
-	   - api integration 
-	   - BackEnd
-	   - Cryptocurrency
-	   - Frameworks
-	   - Wordpress
-	   - Wix
-
--Brand(watermark) all images on edatsu and its susidiaries
--Brand all social media platforms
--vesst smartcontract peer to peer exchange
--Ensue top customer service experience
--When Hemba recruiter starts growing sales, start connecting linkedin accounts to vcs or ceo of major startups
+EDATSU-TEMPLATE:
+=>Web Design and Digital Marketing Services
+=>Edatsu Media
+	=>Blog
+	=>Podcast
+	=>Youtube
+=>Edatsu Community 
+=>Edatsu Partnership Programme
+=>Edatsu Academy
+=>Edatsu Products
+=>Invest + NFT[Ownership Cards]
+=>Edatsu Market place(EMP) [Sale of digal assets and tech gadgets]
 
 
-Edatsu Media (Technology and Finance)
-	-Podcast
-	-Vlog
-	-Blog
+WEB-DEV-SERVICES:
+	Digital Marketing -> 
+	Scale your business and increase
+	revenue with expert driven marketing strategies.
 
-
-FEATURES
-1. Edatsu Services
-    -[Web Design Packages]
-2. Edatsu Partnership programme
-3. Edatsu Media
-4. Edatsu Academy
-5. Edatsu Marketplace[BNPL] Buy now pay later feature (Credpal)
-6. Edatsu Community
-7. Products
-
+	https://www.webfx.com/
+	Form: [enter your website] button: [send me a proposal]

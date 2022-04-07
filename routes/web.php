@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
@@ -24,6 +24,11 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
         return view("admin.dashboard");
     endif;
 })->name('dashboard');
+
+Route::get('/admin-login', function () {
+   return view('auth.admin-login');
+})->name('admin-login');
+
 
 
 
